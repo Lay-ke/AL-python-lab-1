@@ -44,6 +44,6 @@ def main():
 
     print("You can now continue using the terminal.")
 
-# if __name__ == "__main__":
-#     main()
+if __name__ == "__main__":
+    main()
 
