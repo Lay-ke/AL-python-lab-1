@@ -36,8 +36,4 @@ The script performs the following actions:
     - This input is then written to the file along with the current timestamp.
     - Finally, the script reads back the contents of the file and displays it to the user.
 
-## Dependencies
-
-This script requires the requests library. You can install it via:
-    - **`pip install requests`**
 
