@@ -39,5 +39,5 @@ The script performs the following actions:
 ## Dependencies
 
 This script requires the requests library. You can install it via:
-** pip install requests **
+    - **`pip install requests`**
 
