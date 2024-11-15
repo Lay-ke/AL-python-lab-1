@@ -40,11 +40,11 @@ now = datetime.now()
 print(now)
 current_time = now.strftime("%Y-%m-%d %H:%M:%S")
 
-# with open(file_path, 'w') as file:
-#     file.write(user_input + "\n")
-#     file.write(f"Last modified on: {current_time}")
-#     print("File successfully modified.")
+with open(file_path, 'w') as file:
+    file.write(user_input + "\n")
+    file.write(f"Last modified on: {current_time}")
+    print("File successfully modified.")
 
-# with open(file_path, 'r') as file:
-#     print("\nYou Entered: ", end=' ')
-#     print(file.read())
+with open(file_path, 'r') as file:
+    print("\nYou Entered: ", end=' ')
+    print(file.read())
